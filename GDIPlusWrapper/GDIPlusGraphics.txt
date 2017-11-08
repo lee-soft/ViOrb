@@ -1,0 +1,13 @@
+'https://github.com/tannerhelland/vbAccelerator-Archive/tree/master/VB/Code/vbMedia/Using_GDI_Plus/GDIPlus_Helper
+'Add this function to the GDIPlusGraphics file
+
+' Author: Lee Chantrey
+' Description: Clears this Graphics object to the specified color
+Public Function Clear(Optional ByRef r_Colour As Long = -1) As GpStatus
+    If (r_Colour = -1) Then
+        '0 is Black
+        Clear = GdipGraphicsClear(m_gfx, 0)
+    Else
+        Clear = GdipGraphicsClear(m_gfx, GetRGB_VB2GDIP(r_Colour))
+    End If
+End Function
