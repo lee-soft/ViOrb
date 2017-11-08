@@ -12,13 +12,13 @@ I wrote a lot of the original code a long time ago and it was for a completely s
 - [Karl E. Peterson's - HookMe](http://vb.mvps.org/samples/HookMe/) - A clean and elegant means of sublcassing 
 - [vbAccelerator - GDIPlusWrapper](https://github.com/tannerhelland/vbAccelerator-Archive/tree/master/VB/Code/vbMedia/Using_GDI_Plus/GDIPlus_Helper) - vbAccelerator's GDIPlusWrapper used for OOP GDIPlus
 
-## Getting Started 
+## Getting Started
 
+- Ensure you have Visual Basic 6.0(Service Pack 6) installed
 - Grab the WinU TLB - extract the TLB and add as a reference to the project
 - Grab the HookMe zip - extract the files (IHookSink.cls, MHookMe.bas) over the place holder files (IHookSink.cls, MHookMe.bas) and disregard any other files
 - Grab the GDIPlusWrapper zip - extract contents to "GDIPlusWrapper" 
-
-Add the "Clear" function from the Prototype folder to the GDIPlusGraphics class then compile it and add the resulting binary to ViOrb
+- Add the "Clear" function from the Prototype folder to the GDIPlusGraphics class then compile it and add the resulting binary to ViOrb
 Release/GDIPlusWrapper.dll
 
 ## Comments
