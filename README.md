@@ -14,9 +14,9 @@ I wrote a lot of the original code a long time ago and it was for a completely s
 
 ## Getting Started 
 
-Grab the WinU TLB - extract the TLB and add as a reference to the project
-Grab the HookMe zip - extract the files (IHookSink.cls, MHookMe.bas) over the place holder files (IHookSink.cls, MHookMe.bas) and disregard any other files
-Grab the GDIPlusWrapper zip - extract contents to "GDIPlusWrapper" 
+- Grab the WinU TLB - extract the TLB and add as a reference to the project
+- Grab the HookMe zip - extract the files (IHookSink.cls, MHookMe.bas) over the place holder files (IHookSink.cls, MHookMe.bas) and disregard any other files
+- Grab the GDIPlusWrapper zip - extract contents to "GDIPlusWrapper" 
 
 Add the "Clear" function from the Prototype folder to the GDIPlusGraphics class then compile it and add the resulting binary to ViOrb
 Release/GDIPlusWrapper.dll
