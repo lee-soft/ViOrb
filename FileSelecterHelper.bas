@@ -1,6 +1,7 @@
 Attribute VB_Name = "FileSelecterHelper"
 Option Explicit
 
+'Source      :  http://visualbasic.happycodings.com/common-dialogs/code6.html
 'Purpose     :  Allows the user to select a file name from a local or network directory.
 'Inputs      :  sInitDir            The initial directory of the file dialog.
 '               sFileFilters        A file filter string, with the following format:
