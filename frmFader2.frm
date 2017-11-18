@@ -109,7 +109,7 @@ Public Sub InitializeOrb(ByRef srcStartButton As GDIPImage)
     
     MoveWindow Me.hWnd, 0, 0, ORB_WIDTH, ORB_HEIGHT, 0
     
-    m_Bitmap.CreateFromSizeFormat ORB_WIDTH, ORB_HEIGHT, PixelFormat32bppARGB
+    m_Bitmap.CreateFromSizeFormat ORB_WIDTH, ORB_HEIGHT, GDIPlusWrapper.Format32bppArgb
     m_BitmapGraphics.FromImage m_Bitmap.Image
 
     Set m_layeredWindow = Nothing

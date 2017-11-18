@@ -322,7 +322,7 @@ Sub UpdateAndReDraw(Optional ByVal UpdateHDC As Boolean = True)
 
 End Sub
 
-Private Function GetMyRect() As win.RECT
+Private Function GetMyRect() As Win.RECT
     GetWindowRect Me.hWnd, GetMyRect
 End Function
 
@@ -425,7 +425,7 @@ Private Sub Form_Initialize()
     
     RetrieveStoredPosition
 
-    m_Bitmap.CreateFromSizeFormat ORB_WIDTH, ORB_HEIGHT, PixelFormat32bppARGB
+    m_Bitmap.CreateFromSizeFormat ORB_WIDTH, ORB_HEIGHT, GDIPlusWrapper.Format32bppArgb
     m_BitmapGraphics.FromImage m_Bitmap.Image
 
     SetFaderWindow
@@ -582,7 +582,7 @@ End Sub
 '--------------------------------------------------------------------------------
 Private Sub timFollowCursor_Timer()
 
-    Dim cPos As win.POINTL
+    Dim cPos As Win.POINTL
 
     GetCursorPos cPos
     
