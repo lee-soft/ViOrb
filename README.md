@@ -10,7 +10,7 @@ I wrote a lot of the original code a long time ago and it was for a completely s
 
 - [Windows Unicode API TypeLib](https://github.com/badcodes/vb6/blob/master/%5BInclude%5D/TypeLib/winu.tlb) - Windows API, stores all the API declarations
 - [Karl E. Peterson's - HookMe](http://vb.mvps.org/samples/HookMe/) - A clean and elegant means of subclassing 
-- [vbAccelerator - GDIPlusWrapper](https://github.com/tannerhelland/vbAccelerator-Archive/tree/master/VB/Code/vbMedia/Using_GDI_Plus/GDIPlus_Helper) - vbAccelerator's GDIPlusWrapper used for OOP GDIPlus
+- [vbAccelerator - GDIPlusWrapper](https://github.com/lee-soft/GDIPlusWrapper) - vbAccelerator's GDIPlusWrapper used for OOP GDIPlus
 
 ## Getting Started
 
