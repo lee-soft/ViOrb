@@ -14,6 +14,7 @@ I wrote a lot of the original code a long time ago and it was for a completely s
 
 ## Getting Started
 
+- Clone the repo
 - Ensure you have Visual Basic 6.0(Service Pack 6) installed
 - Grab the WinU TLB - extract the TLB and add as a reference to the project
 - Grab the HookMe zip - extract the files (IHookSink.cls, MHookMe.bas) over the placeholder files (IHookSink.cls, MHookMe.bas) and disregard any other files
